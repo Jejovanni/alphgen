@@ -1,0 +1,29 @@
+{
+  "name": "alphgen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/accordion": "^2.0.32",
+    "@nextui-org/button": "^2.0.31",
+    "@nextui-org/input": "^2.1.21",
+    "@nextui-org/system": "^2.1.2",
+    "@nextui-org/theme": "^2.2.3",
+    "framer-motion": "^11.1.7",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
