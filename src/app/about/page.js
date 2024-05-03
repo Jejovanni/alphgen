@@ -23,12 +23,12 @@ function page() {
         <p className='text-white text-xl lg:text-3xl'>Welcome to AlphGen, your partner in streaming success!<br />
           <br />Our mission is simple: to provide comprehensive support and resources to help streamers grow their careers and build their brands.<br />
           <br />
-          With a focus on equipment, marketing, promotion, and management, AlphGen offers a holistic approach to streamer support. We understand that success in streaming requires more than just talent—it demands the right tools, strategy, and support network. That's where we come in.<br />
+          With a focus on equipment, marketing, promotion, and management, AlphGen offers a holistic approach to streamer support. We understand that success in streaming requires more than just talent—it demands the right tools, strategy, and support network. That&apos;s where we come in.<br />
           <br />
-          Our team consists of passionate experts who are committed to staying ahead of the curve in the streaming industry. Whether you're just starting out or looking to take your channel to the next level, we provide personalized solutions tailored to your unique goals and aspirations.
+          Our team consists of passionate experts who are committed to staying ahead of the curve in the streaming industry. Whether you&apos;re just starting out or looking to take your channel to the next level, we provide personalized solutions tailored to your unique goals and aspirations.
           From top-of-the-line streaming equipment to strategic marketing campaigns and hands-on management, AlphGen is your all-in-one solution for streamer success. Let us be your partner on your journey to becoming the next big name in streaming.<br />
           <br />
-          Join the AlphGen family today and unlock your potential as a streamer. Together, we'll turn your passion into a thriving career.</p>
+          Join the AlphGen family today and unlock your potential as a streamer. Together, we&apos;ll turn your passion into a thriving career.</p>
       </div>
       <div className='w-[80%] flex flex-col' id='faqs'>
         <Accordion variant="bordered" itemClasses={itemClasses} >
