@@ -24,12 +24,12 @@ const Header = () => {
         <header className='bg-black flex justify-between items-center h-24 text-white'>
             {/* Logo */}
             <Link href={'/#'}>
-            <Image
-            src={'/logo.png'}
-            width={160}
-            height={68}
-            alt='logo'
-            />
+                <Image
+                    src={'/logo.png'}
+                    width={160}
+                    height={68}
+                    alt='logo'
+                />
             </Link>
 
             {/* Desktop Navigation */}
@@ -52,7 +52,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Navigation Menu */}
-            <nav className={nav ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'}>
+            <nav className={nav ? 'z-10 fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%] z-10'}>
                 <ul>
                     {/* Mobile Logo */}
                     <Link href={'/#'}>
