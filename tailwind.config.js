@@ -4,7 +4,7 @@ const { nextui } = require("@nextui-org/theme");
 
 module.exports = {
   content: [
-    "./node_modules/@nextui-org/theme/dist/components/(accordion|button|input).js",
+    "./node_modules/@nextui-org/theme/dist/components/(accordion|button).js",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",

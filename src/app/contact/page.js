@@ -1,5 +1,4 @@
 import React from 'react'
-import { Input } from "@nextui-org/input";
 
 function page() {
 
@@ -15,50 +14,21 @@ function page() {
   return (
     <div className='bg-black flex flex-col h-[100vh]'>
 
-      <div className="w-full flex flex-col md:flex-row flex-wrap gap-4 px-10 my-20">
+      <div className="w-full flex flex-col md:flex-row flex-wrap  px-10 my-20 ">
         {/* bg-transparent border */}
-        <Input
-          classNames={{
-            base: "rounded-sm ",
-            label: "text-xl pb-6",
-            input: [
-              "bg-black",
-              "text-warning",
-              "h-5",
-              // "placeholder:text-white",
-            ],
-            innerWrapper: "bg-white py-0",
-            inputWrapper: [
-              "bg-black",
-              // "group-data-[focused=true]:bg-default-200/50",
-              // "dark:group-data-[focused=true]:bg-default/60",
-              "!cursor-text",
-            ],
-          }}
-          // itemClasses={itemClasses}
-          type="text"
-          color={'warning'}
-          label="Name"
-          placeholder="Enter your name"
-          // className="w-[70vw] h-16 md:w-[20vw] text-xl"
-        />
-        <Input
+        <form action="https://formspree.io/f/mwkgzkbg" method='POST' className='flex flex-col gap-4'>
+          <label htmlFor="Name" className='text-white text-xl lg:text-2xl'>Name</label>
+          <input type="text" placeholder='Enter your name' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl'/>
+          <label htmlFor="Email" className='text-white text-xl lg:text-2xl'>Email</label>
+          <input type="email" placeholder='youremail@email.com' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl' />
+          <label htmlFor="Your messsage" className='text-white text-xl lg:text-2xl'>Your Message</label>
+          <textarea name="" id="" placeholder='Enter your message' className=' h-52 lg:w-[25vw] px-3 pt-3 text-xl placeholder:text-xl'></textarea>
+          <button type="submit" className=' h-14 w-40 bg-green-500 text-xl lg:text-2xl'>Submit</button>
 
-          type="email"
-          color={'warning'}
-          label="Email"
-          placeholder="Enter your email"
-          className="max-w-[220px]"
-        />
-        <Input
 
-          type='text'
-          color={'warning'}
-          label="Email"
-          placeholder="Enter your message"
-          className="max-w-[220px]"
-        />
 
+
+        </form>
       </div>
 
 
