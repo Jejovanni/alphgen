@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className=" flex justify-center md:justify-between mt-10 w-full md:w-[11vw] z-0">
           <Link href={"/contact"}>
-            <Button color="default" size="lg" radius="sm" className="mr-1">Contact US</Button>
+            <Button color="default" size="lg" radius="sm" className="mr-1">Contact Us</Button>
           </Link>
           <Link href={"/about"}>
             <Button color="success" size="lg" radius="sm" className="ml-1">Learn More</Button>
@@ -28,7 +28,7 @@ export default function Home() {
           <p className=" text-2xl text-zinc-50 font-medium text-center md:text-left mt-3">By Africans for Africans</p>
           <div className=" flex justify-center md:justify-between w-full md:w-[11vw] mt-4">
             <Link href={"/contact"}>
-              <Button color="default" size="lg" radius="sm" className="mr-1">Contact US</Button>
+              <Button color="default" size="lg" radius="sm" className="mr-1">Contact Us</Button>
             </Link>
             <Link href={"/about"}>
               <Button color="success" size="lg" radius="sm" className="ml-1">Learn More</Button>
