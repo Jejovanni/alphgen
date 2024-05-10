@@ -18,12 +18,12 @@ function page() {
         {/* bg-transparent border */}
         <form action="https://formspree.io/f/mwkgzkbg" method='POST' className='flex flex-col gap-4'>
           <label htmlFor="Name" className='text-white text-xl lg:text-2xl'>Name</label>
-          <input type="text" placeholder='Enter your name' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl'/>
+          <input type="text" name='name' placeholder='Enter your name' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl' required/>
           <label htmlFor="Email" className='text-white text-xl lg:text-2xl'>Email</label>
-          <input type="email" placeholder='youremail@email.com' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl' />
+          <input type="email" name='email' placeholder='youremail@email.com' className=' h-14 lg:w-[25vw] px-3 text-xl placeholder:text-xl' required />
           <label htmlFor="Your messsage" className='text-white text-xl lg:text-2xl'>Your Message</label>
-          <textarea name="" id="" placeholder='Enter your message' className=' h-52 lg:w-[25vw] px-3 pt-3 text-xl placeholder:text-xl'></textarea>
-          <button type="submit" className=' h-14 w-40 bg-green-500 text-xl lg:text-2xl'>Submit</button>
+          <textarea name="Message" id="" placeholder='Enter your message' className=' h-52 lg:w-[25vw] px-3 pt-3 text-xl placeholder:text-xl' required></textarea>
+          <button type="submit" name='submit' className=' h-14 w-40 bg-green-500 text-xl lg:text-2xl'>Submit</button>
 
 
 
